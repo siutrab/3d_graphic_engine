@@ -13,5 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki zasobów\Shapes">
+      <UniqueIdentifier>{90ba6d5b-18d5-4437-a23a-21ef13e7684f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Pliki zasobów\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Pliki zasobów\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Line.h">
+      <Filter>Pliki zasobów\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Pliki zasobów\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Pliki zasobów\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -16,33 +16,30 @@
     <Filter Include="Pliki zasobów\Shapes">
       <UniqueIdentifier>{90ba6d5b-18d5-4437-a23a-21ef13e7684f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki zasobów\Scene">
+      <UniqueIdentifier>{8f6ee2d3-56c0-4675-a5b8-fabdb7b1d93f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Pliki zasobów</Filter>
-    </ClCompile>
-    <ClCompile Include="Line.cpp">
-      <Filter>Pliki zasobów\Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Geometry.cpp">
-      <Filter>Pliki zasobów\Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Observer.cpp">
-      <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Line.h">
       <Filter>Pliki zasobów\Shapes</Filter>
     </ClInclude>
-    <ClInclude Include="Point.h">
-      <Filter>Pliki zasobów\Shapes</Filter>
-    </ClInclude>
     <ClInclude Include="Geometry.h">
       <Filter>Pliki zasobów\Shapes</Filter>
     </ClInclude>
-    <ClInclude Include="Observer.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="Scene.h">
+      <Filter>Pliki zasobów\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Units.h">
+      <Filter>Pliki zasobów\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Pliki zasobów\Shapes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

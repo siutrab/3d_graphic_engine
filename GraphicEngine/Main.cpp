@@ -1,9 +1,23 @@
 #include <SFML/Graphics.hpp>
+#include <Windows.h>
+#include "Scene.h"
 
-
+/*
+		Z
+		|
+		|
+		|
+		|
+		|_________ X
+	   / 
+	  /   
+	 /
+	Y
+*/
 int main()
 {
-	sf::RenderWindow okno(sf::VideoMode(320, 240), "Kurs SFML 2.0 - http://cpp0x.pl");
-
-	return 0;
+	
+	Map map;
+	map.print();
+	//return 0;
 }

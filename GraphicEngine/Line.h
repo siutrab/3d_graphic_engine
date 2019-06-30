@@ -1,34 +1,6 @@
 #pragma once
 #include "Point.h"
 
-template class Point<double>;
-
-template<class T>
-struct Vector2D
-{
-	T x;
-	T y;
-
-	Vector2D(T x, T y) : x(x), y(y) {}
-
-	void add(Vector2D* vector)
-	{
-		x += vector->x;
-		y += vector->y;
-	}
-
-	static Vector2D* createFromAddition(Vector2D* vector);
-};
-
-template <class T>
-struct Vector3D
-{
-	T x;
-	T y;
-	T z;
-
-	Vector3D(T x, T y, T z) : x(x), y(y), z(z)	{}
-};
 
 template<class T>
 class Line
